@@ -7,10 +7,9 @@ const client = defaults.client;
  * Get coins by Address
  */
 (async () => {
-  /**
-   *  vars:
-        address=n3BmXQPa1dKi3zEyCdCGNHTuE5GLdmw1Tr
-   */
+  let address;
+
+  address='n3BmXQPa1dKi3zEyCdCGNHTuE5GLdmw1Tr';
 
   /**
       curl $url/coin/address/$address
@@ -18,7 +17,11 @@ const client = defaults.client;
       bcoin cli coin $address
    */
 
-  let coins = await client.getCoinsByAddress('n3BmXQPa1dKi3zEyCdCGNHTuE5GLdmw1Tr');
+  try {
+    let coins = await client.getCoinsByAddress(address);
 
-  console.log(coins);
+    console.log(coins);
+  } catch (e) {
+    console.error(e);
+  }
 })();
