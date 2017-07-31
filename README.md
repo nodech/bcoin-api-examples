@@ -16,3 +16,4 @@ Bcoin REST-RPC Api Examples
 ### Chain/Mempool - Transactions
   1. [Get Transaction by TxHash](getTxHash.js)
   1. [Get Transactions by Address](getTxsByAddress.js)
+  1. [Get Transactions by Addresses](getTxsByAddresses.js)
