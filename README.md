@@ -8,7 +8,11 @@ Bcoin REST-RPC Api Examples
 ### Info
   1. [Get Info](getInfo.js)
 
-### Chain - UTXO/Coin information
-  1. [Get Coins by Address](getCoinsByAddress.js)
+### Chain/Mempool - UTXO/Coin information
   1. [Get Coins by transaction Hash and Index](getCoinsByHashIndex.js)
+  1. [Get Coins by Address](getCoinsByAddress.js)
   1. [Get Coins by Addresses](getCoinsByAddresses.js)
+
+### Chain/Mempool - Transactions
+  1. [Get Transaction by TxHash](getTxHash.js)
+  1. [Get Transactions by Address](getTxsByAddress.js)

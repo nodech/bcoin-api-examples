@@ -5,7 +5,7 @@ const defaults = require('./lib/helpers').getDefaultClients();
 const client = defaults.client;
 
 /**
- * Get coins by Address
+ * Get coins by Hash and Index
  */
 (async () => {
   let hash, index;
@@ -27,4 +27,5 @@ const client = defaults.client;
   } catch (e) {
     console.error(e);
   }
+
 })();
