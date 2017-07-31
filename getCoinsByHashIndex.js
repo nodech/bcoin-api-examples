@@ -20,7 +20,11 @@ const client = defaults.client;
       bcoin cli coin $hash $index
    */
 
-  let coins = await client.getCoin(hash, index);
+  try {
+    let coins = await client.getCoin(hash, index);
 
-  console.log(coins);
+    console.log(coins);
+  } catch (e) {
+    console.error(e);
+  }
 })();

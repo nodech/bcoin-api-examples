@@ -12,7 +12,12 @@ const client = defaults.client;
    * ---
      bcoin cli info
    */
-  let info = await client.getInfo();
+  try {
+    let info = await client.getInfo();
 
-  console.log(info);
+    console.log(info);
+  } catch (e) {
+    console.error(e);
+  }
+
 })();

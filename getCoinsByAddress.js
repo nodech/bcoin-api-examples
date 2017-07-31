@@ -24,4 +24,5 @@ const client = defaults.client;
   } catch (e) {
     console.error(e);
   }
+
 })();
