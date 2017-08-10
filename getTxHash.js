@@ -18,7 +18,7 @@ const client = defaults.client;
      bcoin cli tx $txhash
    */
   try {
-    let tx = await client.getTX(txhash);
+    const tx = await client.getTX(txhash);
 
     console.log(tx);
   } catch (e) {

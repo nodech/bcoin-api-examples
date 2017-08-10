@@ -18,7 +18,7 @@ const client = defaults.client;
    */
 
   try {
-    let coins = await client.getCoinsByAddress(address);
+    const coins = await client.getCoinsByAddress(address);
 
     console.log(coins);
   } catch (e) {

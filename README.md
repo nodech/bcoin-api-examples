@@ -22,3 +22,4 @@ Bcoin REST-RPC Api Examples
   1. [Get Block](getBlock.js)
   1. [Get Block by Height](getBlockByHeight.js)
   1. [Get Mempool Tx Hashes](getMempool.js)
+  1. [Broadcast Tx](broadcastTx.js)

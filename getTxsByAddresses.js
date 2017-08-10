@@ -19,7 +19,7 @@ const client = defaults.client;
      No CLI Option
    */
   try {
-    let txs = await client.getTXByAddress([address0, address1]);
+    const txs = await client.getTXByAddresses([address0, address1]);
 
     console.log(txs);
   } catch (e) {

@@ -18,7 +18,7 @@ const client = defaults.client;
      bcoin cli tx $address
    */
   try {
-    let txs = await client.getTXByAddress(address);
+    const txs = await client.getTXByAddress(address);
 
     console.log(txs);
   } catch (e) {

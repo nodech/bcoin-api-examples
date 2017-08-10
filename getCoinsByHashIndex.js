@@ -11,7 +11,7 @@ const client = defaults.client;
   let hash, index;
 
   //vars
-  hash='4692772a73ea834c836915089acf97f2c790380a2b8fd32f82729da72545d8c5';
+  hash='4692773a73ea834c836915089acf97f2c790380a2b8fd32f82729da72545d8c5';
   index=0;
 
   /**
@@ -21,7 +21,7 @@ const client = defaults.client;
    */
 
   try {
-    let coins = await client.getCoin(hash, index);
+    const coins = await client.getCoin(hash, index);
 
     console.log(coins);
   } catch (e) {

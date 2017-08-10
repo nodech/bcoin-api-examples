@@ -18,7 +18,7 @@ const client = defaults.client;
      bcoin cli block $blockHeight
    */
   try {
-    let block = await client.getBlock(blockHeight);
+    const block = await client.getBlock(blockHeight);
 
     console.log(block);
   } catch (e) {

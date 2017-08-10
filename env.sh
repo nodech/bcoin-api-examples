@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-export URI='http://localhost:48332'
+export url='http://localhost:18332'

@@ -18,7 +18,7 @@ const client = defaults.client;
      bcoin cli block $blockHash
    */
   try {
-    let block = await client.getBlock(blockHash);
+    const block = await client.getBlock(blockHash);
 
     console.log(block);
   } catch (e) {

@@ -20,7 +20,7 @@ const client = defaults.client;
    */
 
   try {
-    let coins = await client.getCoinsByAddress([address0, address1]);
+    const coins = await client.getCoinsByAddresses([address0, address1]);
 
     console.log(coins);
   } catch (e) {

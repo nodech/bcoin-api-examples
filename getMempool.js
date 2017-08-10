@@ -13,7 +13,7 @@ const client = defaults.client;
      bcoin cli mempool
    */
   try {
-    let mempoolTxs = await client.getMempool();
+    const mempoolTxs = await client.getMempool();
 
     console.log(mempoolTxs);
   } catch (e) {
