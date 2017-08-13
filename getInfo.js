@@ -13,7 +13,7 @@ const client = defaults.client;
      bcoin cli info
    */
   try {
-    let info = await client.getInfo();
+    const info = await client.getInfo();
 
     console.log(info);
   } catch (e) {

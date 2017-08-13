@@ -11,7 +11,7 @@ const client = defaults.client;
   let hash, index;
 
   //vars
-  hash='4692773a73ea834c836915089acf97f2c790380a2b8fd32f82729da72545d8c5';
+  hash='c13039f53247f9ca14206da079bcf738d91bc60e251ac9ebaba9ea9a862d9092';
   index=0;
 
   /**
