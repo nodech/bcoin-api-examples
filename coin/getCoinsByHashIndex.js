@@ -1,7 +1,7 @@
 
 'use strict';
 
-const defaults = require('./lib/helpers').getDefaultClients();
+const defaults = require('../lib/helpers').getDefaultClients();
 const client = defaults.client;
 
 /**
